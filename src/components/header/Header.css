@@ -1,0 +1,47 @@
+.container {
+    margin-bottom: 4rem;
+}
+header {
+    padding-top: 7rem;
+    overflow: hidden;
+    
+}
+.c-header {
+    text-align: center;
+    height: 100%;
+    /* position: relative; */
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+a {
+    border: 2px solid rgb(1, 126, 228);
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+a:hover {
+    background: rgb(31, 81, 138);
+}
+.me {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+    }
+}
+/* For phones */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+}

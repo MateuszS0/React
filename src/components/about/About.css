@@ -1,0 +1,38 @@
+.about_component{
+    padding: 2rem;
+    display: grid;
+    justify-content: center;
+}
+h2,h5 {
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.about_me {
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.photo {
+    margin-right: 1rem;
+    width: 40%;
+    aspect-ratio: 16/9;
+}
+@media screen and (max-width: 1024px) {
+    .about_me {
+        width: 50%;
+        margin: 0 auto 0;
+    }
+}
+/* For phones */
+@media screen and (max-width: 600px) {
+    .about_me {
+        width: 66%;
+        margin: 0 auto 3rem;
+    }
+}

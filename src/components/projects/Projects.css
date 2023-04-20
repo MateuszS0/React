@@ -1,0 +1,59 @@
+.h3-P {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.h2-P {
+    margin-top: 6rem;
+}
+
+.container-p {
+    display: flex;
+    justify-content: center;
+    /* aspect-ratio: 16/9; */
+    /* margin: 10rem; */
+    margin-top: 1rem;
+    gap: 4rem;
+}
+
+.project-container {
+    border: 2px solid rgb(72, 49, 107);
+    opacity: 0.75;
+    border-radius: 1rem;
+    padding: 2rem;
+    aspect-ratio: 16/9;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a {
+    border: 0;
+}
+
+.pictures {
+    aspect-ratio: 16/9;
+    width: 20rem;
+    height: 20rem;
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+    .container-p {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* For phones */
+@media screen and (max-width: 600px) {
+    .container-p {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
