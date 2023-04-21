@@ -18,14 +18,15 @@ header {
     padding-top: 1rem;
 }
 
-a {
+.aButton {
     border: 2px solid rgb(1, 126, 228);
     font-size: 2rem;
     border-radius: 1rem;
     padding: 1rem;
 }
-a:hover {
+.aButton:hover {
     background: rgb(31, 81, 138);
+    transition: 0.5s;
 }
 .me {
     width: 100vh;
