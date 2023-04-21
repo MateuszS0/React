@@ -10,12 +10,12 @@ const Projects = () => {
 
         <div className="container-p">
         <div className="project-container">
-        <img src={Picture} alt="" className='pictures'/>
+        <a href="https://github.com/MateuszS0/React-Portfolio" className='a'><img src={Picture} alt="" className='pictures'/></a>
         </div>
 
         <div className="project-container">
         <img src="" alt="" />
-        <img src={wwwebflix} alt="" className='pictures'/>
+        <a href="https://github.com/MateuszS0/MyCode/tree/main/Wwwebflix"className='a'><img src={wwwebflix} alt="" className='pictures'/></a>
         </div>
         </div>
 
