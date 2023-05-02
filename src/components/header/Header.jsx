@@ -12,8 +12,6 @@ const Header = () => {
         <div className="buttons">
           {/* <a href={CV} download >Download CV</a> */}
           {/* <a href="#contact">Contact me</a> */}
-          <a href="https://github.com/MateuszS0/MyCode" target='_blank'><AiFillGithub/></a>
-          <a href="#contact" className='aButton'>Contact me</a>
           <a href="https://github.com/MateuszS0/MyCode" target='_blank' className='aButton'><AiFillGithub/></a>
         </div>
         <img src={Bitmoji} className='Me' />
