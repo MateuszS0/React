@@ -23,9 +23,10 @@
     padding: 2rem;
     aspect-ratio: 16/9;
     width: 20rem;
-    height: 20rem;
+    height: auto; /* Change height to auto so it adjusts based on content */
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align elements at the top */
     align-items: center;
 }
 
