@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css'
 import Picture from '../../images/portfolio-picture.png'
 import wwwebflix from '../../images/Wwwebflix.png'
+import pythonLogo from '../../images/pythonLogo.png'
 const Projects = () => {
   return (
     <div className='project-component'>
@@ -23,7 +24,7 @@ const Projects = () => {
 
         <div className="project-container">
         <img src="" alt="" />
-        <a href="https://github.com/MateuszS0/MyCode/tree/main/Wwwebflix"className='a'><img src={wwwebflix} alt="" className='pictures'/></a>
+        <a href="https://github.com/MateuszS0/Python/tree/main/Projects/Timed%20Math%20Challenge"className='a'><img src={pythonLogo} alt="" className='pictures'/></a>
         <h2>Timed Math Challenge</h2>
         <h5>Python Project</h5>
         </div>
