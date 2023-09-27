@@ -73,7 +73,7 @@ const Skills = () => {
 <div className='skill-details'>
 <AiFillCheckCircle/>
 <h4>SQL</h4>
-<small className='text-small'>Beginner</small>
+<small className='text-small'>Intermediate</small>
 </div>
 <div className='skill-details'>
 <AiFillCheckCircle/>
