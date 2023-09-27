@@ -45,6 +45,11 @@ const Skills = () => {
 <h4>React</h4>
 <small className='text-small'>Beginner</small>
 </div>
+<div className='skill-details'>
+<AiFillCheckCircle/>
+<h4>Tailwind</h4>
+<small className='text-small'>Beginner</small>
+</div>
 {/* <div>
 <AiFillCheckCircle/>
 <h4>Bootstrap</h4>
@@ -72,7 +77,17 @@ const Skills = () => {
 </div>
 <div className='skill-details'>
 <AiFillCheckCircle/>
-<h4>Photoshop</h4>
+<h4>Git</h4>
+<small className='text-small'>Beginner</small>
+</div>
+<div className='skill-details'>
+<AiFillCheckCircle/>
+<h4>Docker</h4>
+<small className='text-small'>Beginner</small>
+</div>
+<div className='skill-details'>
+<AiFillCheckCircle/>
+<h4>Python</h4>
 <small className='text-small'>Beginner</small>
 </div>
 </div>
