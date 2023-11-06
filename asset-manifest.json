@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.d1f83d3f.css",
-    "main.js": "/React-Portfolio/static/js/main.bc18dd1c.js",
+    "main.css": "/React-Portfolio/static/css/main.83f45daa.css",
+    "main.js": "/React-Portfolio/static/js/main.9236aadf.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/portfolio-picture.png": "/React-Portfolio/static/media/portfolio-picture.19788c01065cceb5eb73.png",
     "static/media/bitmojiv2.png": "/React-Portfolio/static/media/bitmojiv2.151564e7a5006d2c8059.png",
     "static/media/Wwwebflix.png": "/React-Portfolio/static/media/Wwwebflix.59969d00d655a0347958.png",
     "static/media/pythonLogo.png": "/React-Portfolio/static/media/pythonLogo.2c702eaf7fca41846bb4.png",
+    "static/media/TypeScript2.png": "/React-Portfolio/static/media/TypeScript2.52ea0bc40ba11d507e7d.png",
     "static/media/photo.jpg": "/React-Portfolio/static/media/photo.cc7a8763d9c24dbaf6bf.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.d1f83d3f.css.map": "/React-Portfolio/static/css/main.d1f83d3f.css.map",
-    "main.bc18dd1c.js.map": "/React-Portfolio/static/js/main.bc18dd1c.js.map",
+    "main.83f45daa.css.map": "/React-Portfolio/static/css/main.83f45daa.css.map",
+    "main.9236aadf.js.map": "/React-Portfolio/static/js/main.9236aadf.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f83d3f.css",
-    "static/js/main.bc18dd1c.js"
+    "static/css/main.83f45daa.css",
+    "static/js/main.9236aadf.js"
   ]
 }
