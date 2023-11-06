@@ -17,10 +17,10 @@
     gap: 4rem;
 }
 
-.container-p > * {
+/* .container-p > * {
     flex: 1; 
     max-width: calc(50% - 2rem);
-}
+} */
 
 .project-container {
     border: 2px solid rgb(72, 49, 107);
@@ -61,11 +61,12 @@
         justify-content: center;
         align-items: center;
     }
+    
 }
 /* For phones */
 @media screen and (max-width: 600px) {
     .container-p {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }

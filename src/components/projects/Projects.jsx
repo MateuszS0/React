@@ -32,14 +32,14 @@ const Projects = () => {
         <div className="project-container">
         <img src="" alt="" />
         <a href="https://github.com/MateuszS0/PriceAlert"className='a'><img src={TypeScript} alt="TypeScript" className='pictures'/></a>
-        <h2>Timed Math Challenge</h2>
-        <h5>Python Project</h5>
+        <h2>PriceAlert</h2>
+        <h5>Website for tracking prices for amazon products</h5>
         </div>
         <div className="project-container">
         <img src="" alt="" />
         <a href="https://github.com/MateuszS0/CryptoVault"className='a'><img src={TypeScript} alt="TypeScript" className='pictures'/></a>
-        <h2>Timed Math Challenge</h2>
-        <h5>Python Project</h5>
+        <h2>CryptoVault</h2>
+        <h5 className='project-desc'>Website for tracking cryptocurrencies</h5>
         </div>
         </div>
 
