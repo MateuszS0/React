@@ -10,10 +10,16 @@
 .container-p {
     display: flex;
     justify-content: center;
-    /* aspect-ratio: 16/9; */
-    /* margin: 10rem; */
+    flex-wrap: wrap;
     margin-top: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
     gap: 4rem;
+}
+
+.container-p > * {
+    flex: 1; 
+    max-width: calc(50% - 2rem);
 }
 
 .project-container {
