@@ -4,6 +4,8 @@ import Picture from '../../images/portfolio-picture.png'
 import wwwebflix from '../../images/Wwwebflix.png'
 import pythonLogo from '../../images/pythonLogo.png'
 import TypeScript from '../../images/TypeScript2.png'
+import cryptoPng from '../../images/crypto2.png'
+import priceAlert from '../../images/PriceAlertImage.jpg'
 const Projects = () => {
   return (
     <div className='project-component'>
@@ -19,14 +21,14 @@ const Projects = () => {
 
         <div className="project-container">
         <img src="" alt="" />
-        <a href="https://github.com/MateuszS0/PriceAlert"className='a'><img src={TypeScript} alt="TypeScript" className='pictures'/></a>
+        <a href="https://github.com/MateuszS0/PriceAlert"className='a'><img src={priceAlert} alt="TypeScript" className='pictures'/></a>
         <h2>PriceAlert</h2>
         <h5 className='project-desc'>Website for tracking prices for amazon products</h5>
         </div>
 
         <div className="project-container">
         <img src="" alt="" />
-        <a href="https://github.com/MateuszS0/CryptoVault"className='a'><img src={TypeScript} alt="TypeScript" className='pictures'/></a>
+        <a href="https://github.com/MateuszS0/CryptoVault"className='a'><img src={cryptoPng} alt="TypeScript" className='pictures'/></a>
         <h2>CryptoVault</h2>
         <h5 className='project-desc'>Website for tracking cryptocurrencies</h5>
         </div>
