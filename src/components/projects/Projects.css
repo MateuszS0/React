@@ -51,9 +51,8 @@
     width: 20rem;
     height: 20rem;
 }
-.desc {
-    display: flex;
-    flex-direction: column;
+.project-desc {
+    text-align: center;
 }
 @media screen and (max-width: 1024px) {
     .container-p {
